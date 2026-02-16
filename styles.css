@@ -376,7 +376,7 @@ nav.scrolled {
     aspect-ratio: 3/4;
     background: linear-gradient(135deg, #e8d5c4, #d4b5a0);
 }
-
+/*
 .hero-image-main img {
     width: 100%;
     height: 100%;
@@ -385,6 +385,18 @@ nav.scrolled {
 }
 
 .hero-image-main:hover img {
+    transform: scale(1.05);
+}
+    */
+
+    .hero-image-main video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.hero-image-main:hover video {
     transform: scale(1.05);
 }
 
